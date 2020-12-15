@@ -1,0 +1,5 @@
+C:\Users\william\source\repos\MvcAjax\Domain\bin\Debug\Domain.dll
+C:\Users\william\source\repos\MvcAjax\Domain\bin\Debug\Domain.pdb
+C:\Users\william\source\repos\MvcAjax\Domain\obj\Debug\Domain.dll
+C:\Users\william\source\repos\MvcAjax\Domain\obj\Debug\Domain.pdb
+C:\Users\william\source\repos\MvcAjax\Domain\obj\Debug\Domain.csprojAssemblyReference.cache

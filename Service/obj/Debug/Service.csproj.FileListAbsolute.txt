@@ -1,0 +1,16 @@
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Service.dll.config
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Service.dll
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Service.pdb
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\EntityFramework.dll
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\EntityFramework.xml
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\william\source\repos\MvcAjax\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\william\source\repos\MvcAjax\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\william\source\repos\MvcAjax\Service\obj\Debug\Service.dll
+C:\Users\william\source\repos\MvcAjax\Service\obj\Debug\Service.pdb
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Domain.dll
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Infraestructure.dll
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Domain.pdb
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Infraestructure.pdb
+C:\Users\william\source\repos\MvcAjax\Service\bin\Debug\Infraestructure.dll.config
