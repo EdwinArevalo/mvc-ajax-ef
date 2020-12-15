@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace Domain
 {
@@ -14,6 +16,13 @@ namespace Domain
         [Required]
         public string studentName { get; set; }
         [Required]
+        public string studentLastName { get; set; }
+        public int studentCode { get; set; }
         public string studentAddress { get; set; }
+        public bool Enabled { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? CreateDate { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? UpdateDate { get; set; }
     }
 }

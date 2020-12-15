@@ -13,3 +13,4 @@ C:\Users\william\source\repos\MvcAjax\Infraestructure\obj\Debug\Infraestructure.
 C:\Users\william\source\repos\MvcAjax\Infraestructure\obj\Debug\Infraestructure.pdb
 C:\Users\william\source\repos\MvcAjax\Infraestructure\obj\Debug\Infraestructure.Migrations.v1.resources
 C:\Users\william\source\repos\MvcAjax\Infraestructure\obj\Debug\Infraestructure.csproj.GenerateResource.cache
+C:\Users\william\source\repos\MvcAjax\Infraestructure\obj\Debug\Infraestructure.Migrations.v2.resources

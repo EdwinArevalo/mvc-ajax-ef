@@ -15,7 +15,7 @@ namespace Service
             List<Student> students = null;
             using (var context = new SchoolContext())
             {
-                students = context.Students.ToList();
+                students = context.Students.Where(x => x.Enabled == true).ToList();
             }
             return students;
         }
@@ -34,6 +34,8 @@ namespace Service
         {
             using (var context = new SchoolContext())
             {
+                student.Enabled = true;
+                student.CreateDate = DateTime.Now;
                 context.Students.Add(student);
                 context.SaveChanges();
             }
@@ -45,7 +47,10 @@ namespace Service
             {
                 var studentNew = context.Students.Find(ID);
                 studentNew.studentName = student.studentName;
+                studentNew.studentLastName = student.studentLastName;
+                studentNew.studentCode = student.studentCode;
                 studentNew.studentAddress = student.studentAddress;
+                studentNew.UpdateDate = DateTime.Now;
                 context.SaveChanges();
             }
         }
@@ -55,7 +60,8 @@ namespace Service
             using (var context = new SchoolContext())
             {
                 var student = context.Students.Find(ID);
-                context.Students.Remove(student);
+                //context.Students.Remove(student);
+                student.Enabled = false;
                 context.SaveChanges();
             }
         }

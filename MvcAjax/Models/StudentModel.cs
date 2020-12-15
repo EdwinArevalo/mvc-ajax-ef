@@ -11,7 +11,11 @@ namespace MvcAjax.Models
         public string Name { get; set; }
 
         public string Address { get; set; }
-
+        public string LastName { get; set; }
+        public int Code { get; set; }
+        public bool Enabled { get; set; }
+        public DateTime CreateDate { get; set; }
+        public DateTime UpdateDate { get; set; }
         public string NameAddress { get; set; }
 
         public string Title { get; set; }
